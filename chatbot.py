@@ -1,0 +1,1 @@
+printf("cheching git initialization...\n")
