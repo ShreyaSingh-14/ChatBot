@@ -1,7 +1,0 @@
-print("checking git initialization...\n")
-print("shivani cloned the repo successfully")
-print("cheching how branching works")
-print("still confused about git commands")
-print("committing with my updated account")
-print("here we go again")
-print("no matter how many trails it takes")
