@@ -54,6 +54,13 @@ export default function TabLayout() {
           tabBarIcon: () => <IconSymbol size={28} name="house.fill" color={'blue'} />,
         }}
       />
+       <Tabs.Screen
+        name="AR_VR"
+        options={{
+          title: 'AR_VR',
+          tabBarIcon: () => <IconSymbol size={28} name="paperplane.fill" color={'black'} />,
+        }}
+      />
     </Tabs>
   );
 }
