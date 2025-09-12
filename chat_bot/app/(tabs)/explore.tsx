@@ -2,12 +2,13 @@
 import { View, Text } from 'react-native'
 import React from 'react'
 import ExplorePage from './../../App_new/Pages/ExplorePage'
+import { GestureHandlerRootView } from "react-native-gesture-handler";
 
 export default function explore() {
   return (
-    <View>
+    <GestureHandlerRootView style={{ flex: 1 }}>
       <ExplorePage/>
-    </View>
+    </GestureHandlerRootView>
   )
 }
 // import React, { useEffect, useState } from "react";

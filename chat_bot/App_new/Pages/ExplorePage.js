@@ -8,7 +8,7 @@ import {
 } from "react-native";
 import { collection, getDocs } from "firebase/firestore";
 import { db } from "../../configs/FirebaseConfig";
-import PlannedTrip from "../../components/PlannedTrip"; 
+import PlannedTripUnified from "../../components/PlannedTripUnified"; 
 import Colors from "../../constants/Colors";
 
 export default function ExplorePage() {
@@ -87,7 +87,7 @@ export default function ExplorePage() {
             </View>
 
             {/* Planned Trip UI */}
-            <PlannedTrip details={dailyPlan} />
+            <PlannedTripUnified details={dailyPlan} />
           </ScrollView>
         );
       }}
