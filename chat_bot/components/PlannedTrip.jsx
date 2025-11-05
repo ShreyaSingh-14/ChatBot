@@ -41,6 +41,9 @@ function DayCard({ dayIndex, activities }) {
         overflow: 'hidden',
       }}
     >
+      <View>
+        <Text></Text>
+      </View>
       {/* Day header with toggle */}
       <TouchableOpacity
         onPress={() => setCollapsed(!collapsed)}
